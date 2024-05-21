@@ -1,0 +1,183 @@
+/* Util */
+.text-center {
+  text-align: center;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.bg-cyan {
+    background-color: #00ffff;
+}
+
+.bg-start {
+  background-color: #1db3c0;
+}
+
+.bg-pro {
+  background-color: #345969;
+}
+
+.bg-ultimate {
+  background-color: #f15927;
+}
+
+.text-start {
+  color: #1db3c0;
+}
+
+.text-pro {
+  color: #345969;
+}
+
+.text-ultimate {
+  color: #f15927;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.border {
+  border: 1px solid #000;
+}
+
+.border-black {
+  border-color: #000;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-orange {
+    color: #ff6600;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-restaurant {
+  display: flex;
+}
+
+.menu-restaurant {
+  display: flex;
+  flex-direction: column;
+}
+
+.shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.border-radius {
+  border-radius: 8px;
+}
+
+.border-radius-lt {
+  border-top-left-radius: 8px;
+}
+
+.border-radius-rt {
+  border-top-right-radius: 8px;
+}
+
+@media screen and (max-width: 768px){
+  .flex-menu {
+    flex-direction: column;
+  }
+
+  .flex-restaurant {
+    flex-direction: column;
+  }
+
+  .menu-restaurant {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+/* Component */
+.icon-restaurant-image {
+  height: 400px;
+  width: 400px;
+}
+
+.table-field-icon-size {
+  height: 40px;
+  width: 40px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table-bordered {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+
+.table-border-bottom {
+  border-bottom: 1px solid #000;
+}
+
+.table-padding-x {
+  padding-left: 8px; 
+  padding-right: 8px;
+}
+
+.table-field-icon-size.text-start .fill-icon {
+  fill: #1db3c0;  /* Fills with Start color */
+}
+
+.table-field-icon-size.text-pro .fill-icon {
+  fill: #345969;  /* Fills with Pro color */
+}
+
+.table-field-icon-size.text-ultimate .fill-icon {
+  fill: #f15927; /* Fills with Ultimate color */
+}
+
+.border-start {
+  border-color: #1db3c0;  /* Strokes with Start color */
+}
+
+.border-pro {
+  border-color: #345969;  /* Strokes with Pro color */
+}
+
+.border-ultimate {
+  border-color: #f15927; /* Strokes with Ultimate color */
+}
