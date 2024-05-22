@@ -114,6 +114,27 @@
   border-top-right-radius: 8px;
 }
 
+.price-table td {
+  font-weight: 600;
+}
+.price-table .price {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  font-size: 24px;
+}
+.price-table .amount {
+  font-size: 42px;
+  font-weight: bold;
+}
+.price-table .details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
 @media screen and (max-width: 768px){
   .flex-menu {
     flex-direction: column;
@@ -180,4 +201,10 @@
 
 .border-ultimate {
   border-color: #f15927; /* Strokes with Ultimate color */
+}
+
+.button-signup {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
 }
